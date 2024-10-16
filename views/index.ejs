@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('header') %> <!-- Header contains the head part -->
+    <body>
+        <%- include('navtop') %>  <!-- Top navigation -->
+        <%- include('leftbar', { activePage: activePage }) %>  <!-- Left sidebar with active page -->
+        <%- include(contentFile) %>  <!-- Main content based on the route -->
+        <%- include('footer') %>  <!-- Footer with scripts -->
+    </body>
+</html>
