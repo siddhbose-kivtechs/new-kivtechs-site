@@ -89,7 +89,7 @@ app.get('/m1', (req, res) => {
 });
 
 // Start the server
-const PORT = process.env.PORT || 4040;
+const PORT = process.env.PORT || 4050;
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
